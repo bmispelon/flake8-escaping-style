@@ -4,7 +4,7 @@ import re
 from token import STRING
 from typing import Union
 
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 
 
 # https://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals

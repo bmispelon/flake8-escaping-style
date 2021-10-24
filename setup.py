@@ -37,7 +37,7 @@ setuptools.setup(
     ],
     entry_points={
         'flake8.extension': [
-            'ESC = flake8_escaping_style.py:Plugin',
+            'ESC = flake8_escaping_style:Plugin',
         ],
     },
     classifiers=[
