@@ -31,6 +31,7 @@ setuptools.setup(
     },
     package_dir = {'': 'src'},
     py_modules=["flake8_escaping_style"],
+    python_requires='>=3.7',
     install_requires=[
         "flake8 > 3.0.0",
     ],
@@ -46,6 +47,9 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: Software Development :: Quality Assurance",
     ],
