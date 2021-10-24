@@ -12,8 +12,8 @@ def get_version():
     raise Exception("__version__ not found in src/flake8_escaping_style.py")
 
 
-#with open("README.md", "r", encoding="utf-8") as fh:
-#    long_description = fh.read()
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 
 setuptools.setup(
@@ -21,7 +21,7 @@ setuptools.setup(
     license="MIT",
     version=get_version(),
     description="A flake8 plugin to use consistent escaping style in string or bytes literals",
-#    long_description=long_description,
+    long_description=long_description,
     long_description_content_type="text/markdown",
     author="Baptiste Mispelon",
     author_email="bmispelon@gmail.com",
