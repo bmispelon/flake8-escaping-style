@@ -46,7 +46,8 @@ literals:
 
 ## Motivation
 
-Python has several different ways to [](https://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals)
+Python has several different ways to write
+[escape sequences](https://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals).
 
 In the old days of Python 2, any file was assumed to be ascii encoded unless
 you added a special comment on the first line. That meant that if you wanted
@@ -56,12 +57,12 @@ comment on the first line of your file, or use an escape sequence like
 
 Nowadays, Python has lifted those limitations and uses a more practical default
 encoding (utf-8, see [PEP3120](https://www.python.org/dev/peps/pep-3120/)).
-So for most string literals you can use the character you want, without having
-to use escape sequences.
+So for most string literals you can use the character you want without having
+to use escape sequences at all.
 
 I'd still recommend using an escape sequence when using "weird" [^1] characters
 and especially invisible ones. But in that case I like to use the "named character"
-escaping style (`\N{name}`).
+escaping style `\N{name}`.
 
 [^1]: By "weird" I mean any character that requires more than two fingers to
 type on my keyboard.
