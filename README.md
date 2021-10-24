@@ -5,6 +5,8 @@ of escape sequences in string and bytes literals throughout your project.
 
 ## Installation
 
+This plugin requires at least version 3.7 of Python.
+
 Like most flake8 plugins, start by installing the package:
 ```
 pip install flake8-escaping-style
@@ -19,6 +21,7 @@ except for `\N{name of character}`:
 select=ESC1
 ignore=ESC105
 ```
+
 
 ## List of error codes
 
